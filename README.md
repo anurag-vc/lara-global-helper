@@ -5,15 +5,15 @@ You can install the package via composer:
 composer require anurag/lara-global-helper
 ```
 ## Usage
-1) String slug generator 
+1) String slug generator <br>
 ```generateSlug($string)```
-2) Generate Hash String
+2) Generate Hash String <br>
 ```hashString($string)```
-3) Clear String
+3) Clear String <br>
 ```cleanString($string)```
-4) Add string in existed string
+4) Add string in existed string <br>
 ```addString($string)```
-5) Shorten the string
+5) Short the string <br>
 ```shortString($string)```
 
 ## License
