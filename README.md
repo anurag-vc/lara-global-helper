@@ -1,5 +1,9 @@
 <h1>Laravel Global Helper</h1>
 
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![StyleCI](https://styleci.io/repos/48512561/shield?branch=master)](https://styleci.io/repos/48512561)
+[![Total Downloads](https://img.shields.io/packagist/dt/anurag/lara-global-helper.svg?style=flat-square)](https://packagist.org/packages/anurag/lara-global-helper)
+
 ## Installation
 
 You can install the package via composer:
