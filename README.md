@@ -1,3 +1,5 @@
+<h1>Laravel Global Helper</h1>
+
 ## Installation
 
 You can install the package via composer:
