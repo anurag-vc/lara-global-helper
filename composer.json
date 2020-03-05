@@ -1,0 +1,29 @@
+{
+    "name": "anurag/SlugGenerator",
+    "description": "Slug Generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anurag Trivedi",
+            "email": "anurag.trivedi@viitorcloud.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^7.0.0",
+        "laravel/framework": ">=5.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SlugGenerator\\SlugGeneratorServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "KemCho\\Majama\\": "src/"
+        }
+    }
+}
