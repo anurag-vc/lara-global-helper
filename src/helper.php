@@ -15,7 +15,6 @@ if (!function_exists('generateSlug')) {
         if ($string === '-') {
             return str_replace(' ', '-', $slug);
         }
-
         return preg_replace('/-+/', '-', $string);
     }
 
@@ -63,6 +62,11 @@ if (!function_exists('addString')) {
     }
 }
 if (!function_exists('shortString')) {
+    /**\
+     * @param $string
+     * @param $length
+     * @return string
+     */
     function shortString($string,$length)
     {
         $string = strtolower($string);
