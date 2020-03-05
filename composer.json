@@ -1,6 +1,6 @@
 {
-    "name": "anurag/SlugGenerator",
-    "description": "Slug Generator",
+    "name": "anurag/lara-global-helper",
+    "description": "For string and array related operations",
     "type": "library",
     "license": "MIT",
     "authors": [
