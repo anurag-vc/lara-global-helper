@@ -27,6 +27,8 @@ composer require anurag/lara-global-helper
 ```unserialize($string)```
 8) Find String(word) position <br>
 ```strposition($string,$word)```
+9) Merge 2 arrays
+```array_merge($string,$str1)```
 
 ## License
 
