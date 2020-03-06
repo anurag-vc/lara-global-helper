@@ -21,6 +21,12 @@ composer require anurag/lara-global-helper
 ```addString($string)```
 5) Short the string <br>
 ```shortString($string)```
+6) String Serialization <br>
+```serialize($string)```
+7) String Unserialization <br>
+```unserialize($string)```
+8) Find String(word) position <br>
+```strposition($string,$word)```
 
 ## License
 
