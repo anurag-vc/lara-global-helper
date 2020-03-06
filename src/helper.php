@@ -110,3 +110,10 @@ if (!function_exists('strposition')) {
         return $string;
     }
 }
+if (!function_exists('array_merge')) {
+    function array_merge($string,$str1)
+    {
+        $string = array_merge($string,$str1);
+        return $string;
+    }
+}
