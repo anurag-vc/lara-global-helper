@@ -121,3 +121,25 @@ if (!function_exists('array_merge')) {
         return $string;
     }
 }
+if (! function_exists('str_replace_last')) {
+    /**
+     * @param  string  $search
+     * @param  string  $replace
+     * @param  string  $subject
+     * @return string
+     */
+    function str_replace_last($search, $replace, $subject)
+    {
+        return Str::replaceLast($search, $replace, $subject);
+    }
+}
+if (! function_exists('array_wrap')) {
+    /**
+     * @param $string
+     * @return mixed
+     */
+    function array_wrap($string)
+    {
+        return Arr::wrap($string);
+    }
+}
