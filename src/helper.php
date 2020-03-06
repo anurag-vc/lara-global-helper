@@ -1,6 +1,5 @@
 <?php
 
-// Generate slug
 if (!function_exists('generateSlug')) {
     /**
      * @param $slug
@@ -111,6 +110,11 @@ if (!function_exists('strposition')) {
     }
 }
 if (!function_exists('array_merge')) {
+    /**
+     * @param $string
+     * @param $str1
+     * @return mixed
+     */
     function array_merge($string,$str1)
     {
         $string = array_merge($string,$str1);
