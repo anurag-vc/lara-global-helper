@@ -75,3 +75,38 @@ if (!function_exists('shortString')) {
         return $string;
     }
 }
+if (!function_exists('serialize')) {
+    /**
+     * @param $string
+     * @return string
+     */
+    function serialize($string)
+    {
+        $string = serialize($string);
+        return $string;
+    }
+
+}
+if (!function_exists('unserialize')) {
+    /**
+     * @param $string
+     * @return mixed
+     */
+    function unserialize($string)
+    {
+        $string = unserialize($string);
+        return $string;
+    }
+}
+if (!function_exists('strposition')) {
+    /**
+     * @param $string
+     * @param $word
+     * @return false|int
+     */
+    function strposition($string,$word)
+    {
+        $string = strpos($string,$word);
+        return $string;
+    }
+}
