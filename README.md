@@ -10,7 +10,7 @@ You can install the package via composer:
 ``` bash
 composer require anurag/lara-global-helper
 ```
-## Usage
+## Functions
 1) String slug generator <br>
 ```generateSlug($string)```
 2) Generate Hash String <br>
