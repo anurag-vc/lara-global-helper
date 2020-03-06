@@ -29,6 +29,10 @@ composer require anurag/lara-global-helper
 ```strposition($string,$word)```
 9) Merge 2 arrays <br>
 ```array_merge($string,$str1)```
+10) Replace last element of string <br>
+```str_replace_last($search, $replace, $subject)```
+11) Convert string to an array <br>
+```array_wrap($string)```
 
 ## License
 
